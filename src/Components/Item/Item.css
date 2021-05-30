@@ -1,0 +1,13 @@
+.exams-form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.exams-form .MuiFormControl-root {
+    width: 400px;
+}
+.MuiInput-root {
+    margin: 10px 0;
+}

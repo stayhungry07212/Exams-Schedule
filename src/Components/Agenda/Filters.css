@@ -1,0 +1,14 @@
+.stepper-filters form {
+    margin: 50px;
+}
+.MuiSelect-select.MuiSelect-select {
+    width: 200px;
+}
+.show-filters {
+    display: flex;
+    justify-content: center;
+}
+.show-filters * {
+    margin: 10px;
+    padding: 2px;
+}

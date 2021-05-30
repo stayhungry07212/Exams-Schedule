@@ -1,0 +1,40 @@
+.list-container {
+    display:flex;
+    flex-direction: column;
+}
+.MuiButton-root.add-new-button {
+    margin: 20px;
+    align-self: flex-end;
+}
+.MuiExpansionPanelDetails-root {
+    flex-direction: column;
+}
+.MuiExpansionPanel-root {
+    padding: 10px 34px;
+}
+.list-bar{
+    background-color: #fafafa;
+    padding: 30px 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.year-title {
+    font-size: 28px;
+}
+.MuiExpansionPanel-root .second-panel{
+    background:#fafafa;
+}
+.third-panel .MuiExpansionPanelSummary-content {
+    font-size: 20px;
+}
+.third-panel .MuiExpansionPanelDetails-root *{
+    font-size: 16px;
+    padding: 7px 0;
+
+}
+.third-panel .MuiExpansionPanelDetails-root a{
+    margin: 10px 0;
+    padding: 0;
+    width: fit-content;
+}

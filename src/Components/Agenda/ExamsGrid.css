@@ -1,0 +1,53 @@
+.grid-container {
+    margin: 0 90px;
+}
+.MuiGridList-root li{
+   margin: 50px 1%;
+   width: 31% !important;
+}
+.MuiGridListTile-root:nth-child(2n),
+.MuiGridListTile-root:nth-child(2n+2) {
+    background-color: #fafafa;
+}
+li .MuiGridListTileBar-root {
+    background: rgba(0, 0, 0, 0.1);
+}
+.MuiGridListTileBar-title, .MuiGridListTileBar-subtitle {
+    color: rgb(71, 71, 71);
+}
+.exams-grid-materie {
+    margin: 10px;
+    font-size: 26px;
+    text-align: center;
+    color:rgb(85, 79, 79);
+}
+.exams-grid-text {
+    text-align: center;
+}
+.exams-grid-dataExamen {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    background-color: #3f51b5;
+    padding: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .MuiGridList-root li{
+        margin: 30px 2%;
+        width: 46% !important;
+     }
+     .grid-container {
+        margin: 0 1vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .MuiGridList-root li{
+        margin: 20px 0;
+        width: 100% !important;
+     }
+     .grid-container {
+        margin: 0 10vw;
+    }
+}
